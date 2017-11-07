@@ -39,7 +39,7 @@ exports.postNewItem = (req, res) => {
     req.flash('success', {
       msg: 'Item has been created successfully.'
     });
-    res.redirect('/item/new')
+    res.redirect('/item/all')
     });
 };
 
